@@ -3,7 +3,7 @@
 
 # Code adapted from http://willsrpi.blogspot.co.uk
 # and https://stackoverflow.com/questions/9382045/send-a-file-through-sockets-in-python
-# and https://stackoverflow.com/questions/19412029/transfering-file-over-tcp-using-python
+# and https://stackoverflow.com/questions/273192/how-can-i-create-a-directory-if-it-does-not-exist
 
 import socket
 from sys import argv

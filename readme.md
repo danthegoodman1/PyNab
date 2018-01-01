@@ -8,6 +8,10 @@ _Works as a nifty file sharing tool too!_
 
 Running this assumes you already know where the file is, this should be used through a shell after all. This is to make it easier than worrying about making sure you can SCP to a system.
 
+The server is required to be run for every file sent, will eventually make it so the server has to be run only once to get multiple files.
+
+Also currently only accepts one connection in
+
 ### Client:
 
 Run like:
