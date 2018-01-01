@@ -46,7 +46,12 @@ while True:
     while True:
         l = sc.recv(1024)
         while l:
-                f.write(l)
-                l = sc.recv(1024)
+            f.write(l)
+            l = sc.recv(1024)
+            if l == "".encode():
+                f.close()
+                sc.close()
+                print("File '{0}' received, exiting".format(fileName.decode()))
+                exit(0)
     f.close()
     sc.close()
